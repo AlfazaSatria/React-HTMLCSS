@@ -13,7 +13,9 @@ function App() {
           <div class="row">
             <div class="col-md-4">
               <div class="card">
-                <div class="card-image"></div>
+                <div class="card-image">    
+                   
+                </div>
                 <div class="card-text">
                   <span class="date">4 days ago</span>
                   <h2>Post One</h2>
