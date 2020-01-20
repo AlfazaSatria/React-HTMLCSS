@@ -5,22 +5,93 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+
+      <body>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-image"></div>
+                <div class="card-text">
+                  <span class="date">4 days ago</span>
+                  <h2>Post One</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur, Ducimus, repudiandae temporibus omnis illum maxime quod deserunt eligendi dolor</p>
+                </div>
+                <div class="card-stats">
+                  <div class="stat">
+                    <div class="value">4<sup>m</sup></div>
+                    <div class="type">read</div>
+                  </div>
+                  <div class="stat border">
+                    <div class="value">5123</div>
+                    <div class="type">views</div>
+                  </div>
+                  <div class="stat">
+                    <div class="value">32</div>
+                    <div class="type">comments</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-image"></div>
+                <div class="card-text">
+                  <span class="date">4 days ago</span>
+                  <h2>Post One</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur, Ducimus, repudiandae temporibus omnis illum maxime quod deserunt eligendi dolor</p>
+                </div>
+                <div class="card-stats">
+                  <div class="stat">
+                    <div class="value">4<sup>m</sup></div>
+                    <div class="type">read</div>
+                  </div>
+                  <div class="stat border">
+                    <div class="value">5123</div>
+                    <div class="type">views</div>
+                  </div>
+                  <div class="stat">
+                    <div class="value">32</div>
+                    <div class="type">comments</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-image"></div>
+                <div class="card-text">
+                  <span class="date">4 days ago</span>
+                  <h2>Post One</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur, Ducimus, repudiandae temporibus omnis illum maxime quod deserunt eligendi dolor</p>
+                </div>
+                <div class="card-stats">
+                  <div class="stat">
+                    <div class="value">4<sup>m</sup></div>
+                    <div class="type">read</div>
+                  </div>
+                  <div class="stat border">
+                    <div class="value">5123</div>
+                    <div class="type">views</div>
+                  </div>
+                  <div class="stat">
+                    <div class="value">32</div>
+                    <div class="type">comments</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </body>
     </div>
   );
 }
+
+
+
+
 
 export default App;
